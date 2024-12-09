@@ -1,4 +1,4 @@
-Contact Web App
+Contact Web App:
 A responsive "Contacts" application built with React that fetches and displays contact information from a public API. The app features dynamic search functionality and is styled using Styled Components for a visually appealing user experience.
 
 Features:
