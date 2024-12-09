@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import { CardContainer, ImageContainer, Avatar, Content, Name, Contact } from './Card.styled';
+import { CardContainer, ImageContainer, Avatar, Content, Name, Contact } from '../Card.styled';
 import avatarIcon from "./assets/avatar.jpg";
 
 const Card = ({ name, username, email, phone }) => {

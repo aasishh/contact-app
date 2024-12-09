@@ -6,24 +6,17 @@ import { MainContainer, Header, SearchBar, ContactList, ContactsContainer } from
 
 const Contacts = () => {
   const [contacts, setContacts] = useState([]);
-  //const [search, setSearch] = useState('');
-
-
+ 
+  
   useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/users')
       .then(response => setContacts(response.data))
       .catch(error => console.log('Error fetching contacts data:', error));
   }, []);
 
-  // search
-  // const filteredContacts = contacts.filter(contact =>
-  //   contact.name.toLowerCase().includes(search.toLowerCase())
-  // );
-
+ 
 return (
-  <MainContainer>
-    {/* <Headers> Contacts </Headers> */}
-    {/* <SearchContainer>Search</SearchContainer> */}
+  <MainContainer>    
     <Header> Contacts </Header>
     <ContactsContainer>
       
