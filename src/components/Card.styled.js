@@ -68,6 +68,12 @@ export const Content = styled.div`
   padding: 20px;
   overflow: hidden;
   
+  @media (max-width: 786px) {
+    padding: 15px;
+  }
+  @media (max-width: 576px) {
+    padding: 10px;
+  }
 `;
 
 export const Name = styled.div`
@@ -82,13 +88,36 @@ export const Name = styled.div`
     margin-top: 0;
     padding-top:5px;
   }
+  
+  @media (max-width: 786px) {
+    font-size: 1.1em;
+    margin: 0;
+    
+    p {
+      font-size: 0.57em;
+      margin-top: 0;
+      padding-top: 6px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    font-size: 0.85em;
+    margin: 0;
+    
+    p {
+      font-size: 0.60em;
+      margin-top: 0;
+      padding-top: 4px;
+    }
+  }
 `;
 
 export const Contact = styled.div`
-   color: white;
+  color: white;
+  word-wrap: break-word;
+  white-space: normal;
   p:nth-of-type(1) {
-    margin-top: 0;
-    padding-top:5px;
+    margin-top: 0;   
     margin-bottom: 0;
     padding-top: 9px;
     font-size: 0.89em;
@@ -100,4 +129,26 @@ export const Contact = styled.div`
     font-size: 0.89em;
   }
   
+  @media (max-width: 786px) {
+    p:nth-of-type(1) {      
+      padding-top: 6px;     
+      font-size: 0.79em;
+    }
+
+    p:nth-of-type(2) {      
+      padding-top: 10px;      
+      font-size: 0.79em;
+    }
+  }
+  @media (max-width: 576px) {
+    p:nth-of-type(1) {      
+      padding-top: 6px;     
+      font-size: 0.61em;
+    }
+
+    p:nth-of-type(2) {      
+      padding-top: 8px;      
+      font-size: 0.61em;
+    }
+  }
 `;

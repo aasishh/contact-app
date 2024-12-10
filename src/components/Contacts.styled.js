@@ -18,11 +18,11 @@ export const Header = styled.h1`
   margin-bottom: 50px;
   
   @media (max-width: 786px) {
-    font-size: 4.25em;
+    font-size: 3.75em;
   }
 
   @media (max-width: 576px) {
-    font-size: 3.65em;
+    font-size: 2.69em;
   }
 `;
 
