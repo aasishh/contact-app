@@ -1,21 +1,21 @@
-Contact Web App:
+# Contact Web App:
 A responsive "Contacts" application built with React that fetches and displays contact information from a public API. The app features dynamic search functionality and is styled using Styled Components for a visually appealing user experience.
 
-Features:
+# Features:
 Fetches contact data from JSONPlaceholder API.
 Displays contact name, email, and phone in a clean card layout.
 Responsive design for better usability across devices.
 Styled using Styled Components for modular and reusable styles.
 
-Technologies Used:
+# Technologies Used:
 React: For building the UI components.
 Axios: For fetching data from the API.
 Styled Components: For modular CSS-in-JS styling.
 
-Live Demo
+# Live Demo
 Link to live demo (coming soon).
 
-Getting Started
+# Getting Started
 Follow these instructions to set up and run the project on your local machine.
 
 1. Clone the Repository
@@ -44,10 +44,16 @@ yarn start
 
 The app will be available at http://localhost:3000.
 
-Usage:
+5. Build the app for production
+
+npm run build
+or, if using Yarn:
+yarn build
+
+# Usage:
 Once the app is running, you will see a list of contacts displayed as cards.
 
-Project Structure:
+# Project Structure:
 
 /src
   /components
@@ -58,7 +64,7 @@ Project Structure:
   App.js               // Main application entry point
   index.js             // React DOM rendering
   
-Contributing:
+# Contributing:
 Contributions are welcome! If you have ideas for new features or improvements, feel free to fork the repository and submit a pull request.
 
 Fork the project.
