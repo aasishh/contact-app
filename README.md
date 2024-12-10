@@ -13,7 +13,8 @@ Axios: For fetching data from the API.
 Styled Components: For modular CSS-in-JS styling.
 
 # Live Demo
-Link to live demo (coming soon).
+Deployed on Vercel.
+Link to live demo: https://contact-app-sigma-two.vercel.app/
 
 # Getting Started
 Follow these instructions to set up and run the project on your local machine.
